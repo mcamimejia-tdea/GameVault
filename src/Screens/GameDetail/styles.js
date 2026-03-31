@@ -1,1 +1,148 @@
+import { StyleSheet } from "react-native"
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#f2f2f2",
+  },
+  headerBar: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingTop: 20,
+    paddingHorizontal: 20,
+    paddingBottom: 10,
+    backgroundColor: "#f2f2f2",
+  },
+  backButton: {
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderRadius: 8,
+    marginRight: 12,
+  },
+  screenTitle: {
+    fontSize: 20,
+    fontWeight: "400",
+    color: "#1e1e2e",
+  },
+  scrollContent: {
+    padding: 20,
+    paddingBottom: 40,
+  },
+  card: {
+    borderRadius: 16,
+    overflow: "hidden",
+    backgroundColor: "#fff",
+    elevation: 4,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+  },
+  cardHeader: {
+    padding: 24,
+    alignItems: "center",
+  },
+  icon: {
+    marginBottom: 10,
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: "700",
+    color: "#fff",
+    textAlign: "center",
+    marginBottom: 12,
+  },
+  badgeRow: {
+    flexDirection: "row",
+    gap: 8,
+    justifyContent: "center",
+    flexWrap: "wrap",
+  },
+  platformBadge: {
+    backgroundColor: "#f6d581",
+    color: "#1e1e2e",
+    fontSize: 12,
+    fontWeight: "600",
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 6,
+    overflow: "hidden",
+  },
+  genreBadge: {
+    backgroundColor: "rgba(255,255,255,0.25)",
+    color: "#fff",
+    fontSize: 12,
+    fontWeight: "600",
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 6,
+    overflow: "hidden",
+  },
+  cardBody: {
+    padding: 20,
+    gap: 16,
+  },
+  metaRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+  label: {
+    fontSize: 12,
+    color: "#888",
+    fontWeight: "600",
+    textTransform: "uppercase",
+    letterSpacing: 0.8,
+    marginBottom: 4,
+  },
+  priceValue: {
+    fontSize: 24,
+    color: "#1e1e2e",
+    fontWeight: "700",
+  },
+  ageRatingBadge: {
+    width: 44,
+    height: 44,
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  ageRatingText: {
+    color: "#fff",
+    fontWeight: "700",
+    fontSize: 18,
+  },
+  ageRatingLabel: {
+    fontSize: 11,
+    color: "#888",
+    marginTop: 4,
+    textAlign: "center",
+  },
+  divider: {
+    height: 1,
+    backgroundColor: "#e8e8e8",
+  },
+  description: {
+    fontSize: 14,
+    color: "#555",
+    lineHeight: 22,
+  },
+  wishlistButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 12,
+    paddingVertical: 14,
+    elevation: 2,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.15,
+    shadowRadius: 4,
+  },
+  wishlistButtonText: {
+    fontSize: 16,
+    fontWeight: "700",
+    color: "#fff",
+  },
+})
 

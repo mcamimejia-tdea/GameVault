@@ -7,7 +7,7 @@ export default [
     price: "$59.99",
     ageRating: 'E',
     description: "An open-world action-adventure game where players explore the vast kingdom of Hyrule, solve puzzles, and battle enemies to save Princess Zelda and defeat the evil Calamity Ganon.",
-    emoji: "🗡️"
+    icon: "crosshairs"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export default [
     price: "$39.99",
     ageRating: 'M',
     description: "A critically acclaimed action-adventure game that follows the story of Kratos, a former Greek god, and his son Atreus as they journey through Norse mythology, battling gods and monsters while exploring a richly detailed world.",
-    emoji: "⚔️"
+    icon: "skull"
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export default [
     price: "$59.99",
     ageRating: 'T',
     description: "An open-world action-adventure game set in the late 1800s, following the story of Arthur Morgan, a member of the Van der Linde gang, as he navigates the challenges of life in the American Wild West while trying to survive against lawmen and rival gangs.",
-    emoji: "🤠"
+    icon: "hat-cowboy"
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export default [
     price: "$26.95",
     ageRating: 'E',
     description: "A popular sandbox game that allows players to build and explore virtual worlds made up of blocks. Players can gather resources, craft items, and create their own structures while surviving against monsters and exploring various biomes.",
-    emoji: "🧱"
+    icon: "cube"
   },
   {
     id: 5,
@@ -47,6 +47,6 @@ export default [
     price: "$5.99",
     ageRating: 'T',
     description: "A widely popular battle royale game where players compete against each other in a last-man-standing format. Players can build structures, gather resources, and use a variety of weapons and items to outlast their opponents in a constantly shrinking play area.",
-    emoji: "🎮"
+    icon: "gamepad"
   }
 ];

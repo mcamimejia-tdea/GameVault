@@ -1,0 +1,83 @@
+import { StyleSheet } from "react-native"
+
+export default StyleSheet.create({
+	container: {
+		flex: 1,
+		backgroundColor: "#f2f2f2",
+		padding: 20,
+	},
+	header: {
+		fontSize: 26,
+		fontWeight: "400",
+		color: "#1e1e2e",
+		paddingTop: 20,
+		paddingBottom: 20,
+	},
+	card: {
+		backgroundColor: "#fff",
+		borderRadius: 14,
+		padding: 20,
+		flex: 1,
+		shadowColor: "#000",
+		shadowOffset: { width: 0, height: 2 },
+		shadowOpacity: 0.08,
+		shadowRadius: 6,
+		elevation: 3,
+	},
+	cardTitle: {
+		fontSize: 18,
+		fontWeight: "600",
+		color: "#1e1e2e",
+		marginBottom: 14,
+		lineHeight: 26,
+	},
+	cardMessage: {
+		fontSize: 14,
+		color: "#555",
+		lineHeight: 22,
+	},
+	infoMessage: {
+		textAlign: "center",
+		fontSize: 13,
+		color: "#888",
+		fontWeight: "600",
+		textTransform: "uppercase",
+		letterSpacing: 0.8,
+		marginTop: 20,
+		marginBottom: 12,
+	},
+	dotsRow: {
+		flexDirection: "row",
+		justifyContent: "center",
+		alignItems: "center",
+		gap: 6,
+		marginBottom: 20,
+	},
+	dot: {
+		width: 8,
+		height: 8,
+		borderRadius: 4,
+		backgroundColor: "#ccc",
+	},
+	dotActive: {
+		backgroundColor: "#558a98",
+		width: 20,
+		borderRadius: 4,
+	},
+	button: {
+		backgroundColor: "#558a98",
+		borderRadius: 10,
+		paddingVertical: 14,
+		alignItems: "center",
+		shadowColor: "#000",
+		shadowOffset: { width: 0, height: 1 },
+		shadowOpacity: 0.1,
+		shadowRadius: 3,
+		elevation: 2,
+	},
+	buttonText: {
+		color: "#fff",
+		fontSize: 15,
+		fontWeight: "600",
+	},
+})

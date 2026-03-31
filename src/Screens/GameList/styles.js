@@ -10,7 +10,6 @@ export default StyleSheet.create({
     fontSize: 26,
     fontWeight: "400",
     color: "#1e1e2e",
-    paddingTop: 20,
     paddingBottom: 20,
   },
   list: {

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { View, Text, ScrollView, TouchableOpacity } from "react-native"
+import { SafeAreaView } from "react-native-safe-area-context"
 import Icon from "@react-native-vector-icons/fontawesome-free-solid"
 import { PLATFORM_COLORS, AGE_RATING_COLORS, AGE_RATING_LABELS } from "../../constants/constants"
 import styles from "./styles"
@@ -18,7 +19,7 @@ export default function GameDetailScreen({ route, navigation }) {
   const ageColor = AGE_RATING_COLORS[ageRating] ?? "#888"
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container} edges={["top"]}>
       <View style={styles.headerBar}>
         <TouchableOpacity
           style={styles.backButton}
@@ -79,6 +80,6 @@ export default function GameDetailScreen({ route, navigation }) {
           </View>
         </View>
       </ScrollView>
-    </View>
+    </SafeAreaView>
   )
 }

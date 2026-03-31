@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { View, Text, FlatList, ActivityIndicator } from "react-native"
+import { SafeAreaView } from "react-native-safe-area-context"
 import gamesData from "../../Data/gamesData"
 import Card from "../../Components/Card"
 import styles from "./styles"
@@ -19,15 +20,15 @@ export default function GameListScreen({ navigation }) {
 
   if (loading) {
     return (
-      <View style={styles.loaderContainer}>
+      <SafeAreaView style={styles.loaderContainer} edges={["top"]}>
         <ActivityIndicator size="large" color="#89b4fa" />
         <Text style={styles.loaderText}>Loading catalog...</Text>
-      </View>
+      </SafeAreaView>
     )
   }
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container} edges={["top"]}>
       <Text style={styles.header}>Games</Text>
       <FlatList
         data={games}
@@ -40,6 +41,6 @@ export default function GameListScreen({ navigation }) {
         )}
         contentContainerStyle={styles.list}
       />
-    </View>
+    </SafeAreaView>
   )
 }

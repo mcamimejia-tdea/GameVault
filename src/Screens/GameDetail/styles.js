@@ -8,7 +8,6 @@ export default StyleSheet.create({
   headerBar: {
     flexDirection: "row",
     alignItems: "center",
-    paddingTop: 20,
     paddingHorizontal: 20,
     paddingBottom: 10,
     backgroundColor: "#f2f2f2",
